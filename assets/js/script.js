@@ -13,11 +13,11 @@ $(document).ready(function () {
 
     $('body').vegas({
         slides: [
-            { src: 'assets/imagwed/CQD04369.jpg' },
-            { src: 'assets/imagwed/CQD04649.jpg' },
-            { src: 'assets/imagwed/CQD04660.jpg' },
-            { src: 'assets/imagwed/CQD04710.jpg' },
-            { src: 'assets/imagwed/CQD04710.jpg' }
+            { src: 'assets/img/CQD04369.jpg' },
+            { src: 'assets/img/CQD04649.jpg' },
+            { src: 'assets/img/CQD04660.jpg' },
+            { src: 'assets/img/CQD04710.jpg' },
+            { src: 'assets/img/CQD04710.jpg' }
         ],
         //cover: 'contain'
 
