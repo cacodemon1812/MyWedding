@@ -13,8 +13,8 @@ $(document).ready(function () {
 
     $('body').vegas({
         slides: [
-            { src: 'assets/img/CQD04369.jpg' },
-            { src: 'assets/img/CQD04649.jpg' },
+            { src: 'assets/img/nensua-8.jpg' },
+            { src: 'assets/img/nensua-11' },
             { src: 'assets/img/CQD04660.jpg' },
             { src: 'assets/img/CQD04710.jpg' },
             { src: 'assets/img/CQD04710.jpg' }

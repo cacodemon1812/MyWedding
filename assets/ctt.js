@@ -11,11 +11,11 @@ $(document).ready(function () {
     });
     $('body').vegas({
         slides: [
-            { src: 'assets/img/CQD04369.jpg' },
-            { src: 'assets/img/CQD04649.jpg' },
-            { src: 'assets/img/CQD04660.jpg' },
-            { src: 'assets/img/CQD04710.jpg' },
-            { src: 'assets/img/CQD04710.jpg' }
+            { src: 'assets/img/nenxanh-9.jpg' },
+            { src: 'assets/img/nenxanh-10.jpg' },
+            { src: 'assets/img/nensua-8.jpg' },
+            { src: 'assets/img/nensua-10.jpg' },
+            { src: 'assets/img/nenvang-2.jpg' }
         ],
         //cover: 'contain'
 
