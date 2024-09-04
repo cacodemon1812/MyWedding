@@ -11,24 +11,45 @@ $(document).ready(function () {
     });
 
     // Load ảnh màn hình máy tính
-    $('body').vegas({
-        slides: [
-            { src: 'assets/img/ab-1-n.jpg' },
-            { src: 'assets/img/ab-2-n.jpg' },
-            { src: 'assets/img/ab-3-n.jpg' },
-            { src: 'assets/img/ab-4-n.jpg' },
-            { src: 'assets/img/ab-5-n.jpg' },
-            { src: 'assets/img/ab-6-n.jpg' },
-            { src: 'assets/img/ab-7-n.jpg' },
-            { src: 'assets/img/ab-8-n.jpg' },
-            { src: 'assets/img/ab-9-n.jpg' },
-            { src: 'assets/img/ab-10-n.jpg' },
-            { src: 'assets/img/ab-11-n.jpg' }
+    if (!isMobile) {
+        $('body').vegas({
+            slides: [
+                { src: 'assets/img/ab-1-n.jpg' },
+                { src: 'assets/img/ab-2-n.jpg' },
+                { src: 'assets/img/ab-3-n.jpg' },
+                { src: 'assets/img/ab-4-n.jpg' },
+                { src: 'assets/img/ab-5-n.jpg' },
+                { src: 'assets/img/ab-6-n.jpg' },
+                { src: 'assets/img/ab-7-n.jpg' },
+                { src: 'assets/img/ab-8-n.jpg' },
+                { src: 'assets/img/ab-9-n.jpg' },
+                { src: 'assets/img/ab-10-n.jpg' },
+                { src: 'assets/img/ab-11-n.jpg' }
 
-        ],
-        //cover: 'contain'
+            ],
+            cover: 'contain'
 
-    });
+        });
+    } else {
+        $('body').vegas({
+            slides: [
+                { src: 'assets/img/nenxanh-1-n.jpg' },
+                { src: 'assets/img/nenxanh-2-d.jpg' },
+                { src: 'assets/img/nensua-20-d.jpg' },
+                { src: 'assets/img/nenvang-1-d.jpg' },
+                { src: 'assets/img/nensua-15-d.jpg' },
+                { src: 'assets/img/nensua-14-d.jpg' },
+                { src: 'assets/img/nenxanh-6-d.jpg' },
+                { src: 'assets/img/nenxanh-7-d.jpg' },
+                { src: 'assets/img/nenxanh-8-d.jpg' },
+                { src: 'assets/img/nensua-18-d.jpg' },
+                { src: 'assets/img/nensua-4-d.jpg' }
+
+            ],
+            cover: 'contain'
+
+        });
+    }
 
     var wheel = $("#wheel").flipster({
         style: 'wheel',
