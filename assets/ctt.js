@@ -9,41 +9,57 @@ $(document).ready(function () {
         $('#container-header').removeClass('hide')
         $('#removehide').addClass('hide')
     });
+
+    // Load ảnh màn hình máy tính
     $('body').vegas({
         slides: [
-            { src: 'assets/img/nenxanh-9.jpg' },
-            { src: 'assets/img/nenxanh-10.jpg' },
-            { src: 'assets/img/nensua-8.jpg' },
-            { src: 'assets/img/nensua-10.jpg' },
-            { src: 'assets/img/nenvang-2.jpg' }
+            { src: 'assets/img/ab-1-n.jpg' },
+            { src: 'assets/img/ab-2-n.jpg' },
+            { src: 'assets/img/ab-3-n.jpg' },
+            { src: 'assets/img/ab-4-n.jpg' },
+            { src: 'assets/img/ab-5-n.jpg' },
+            { src: 'assets/img/ab-6-n.jpg' },
+            { src: 'assets/img/ab-7-n.jpg' },
+            { src: 'assets/img/ab-8-n.jpg' },
+            { src: 'assets/img/ab-9-n.jpg' },
+            { src: 'assets/img/ab-10-n.jpg' },
+            { src: 'assets/img/ab-11-n.jpg' }
+
         ],
         //cover: 'contain'
 
     });
 
-    if (!isMobile) {
-        let properties = {
-            media:
-                "https://www.youtube.com/embed/q-0q42Cn1tE?si=5QyRUf9ATox8sjem&amp",
-            overlay: 0.9,
-            random: false,
-            start: 12,
-            end: 32,
-        };
-        anamorph(properties);
-    } else {
-        $("#navbar-ul").addClass('navbar-mobile')
-        $('.parallax-list').addClass('background-suplo')
-        $('#logo-suplo').addClass('mobile')
-        $('#about-suplo').addClass('mobile')
-        $('#support-suplo').addClass('mobile')
-        $('#credits-suplo').addClass('mobile')
-        $('.donate').addClass('mobile')
-        $('#aboutme').addClass('mobile')
-        $('.credits-flow').addClass('mobile')
+    var wheel = $("#wheel").flipster({
+        style: 'wheel',
+        spacing: 0
+    });
 
 
 
-    }
+    // if (!isMobile) {
+    //     let properties = {
+    //         media:
+    //             "https://www.youtube.com/embed/q-0q42Cn1tE?si=5QyRUf9ATox8sjem&amp",
+    //         overlay: 0.9,
+    //         random: false,
+    //         start: 12,
+    //         end: 32,
+    //     };
+    //     anamorph(properties);
+    // } else {
+    //     $("#navbar-ul").addClass('navbar-mobile')
+    //     $('.parallax-list').addClass('background-suplo')
+    //     $('#logo-suplo').addClass('mobile')
+    //     $('#about-suplo').addClass('mobile')
+    //     $('#support-suplo').addClass('mobile')
+    //     $('#credits-suplo').addClass('mobile')
+    //     $('.donate').addClass('mobile')
+    //     $('#aboutme').addClass('mobile')
+    //     $('.credits-flow').addClass('mobile')
+
+
+
+    // }
 
 });

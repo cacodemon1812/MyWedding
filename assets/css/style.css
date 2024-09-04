@@ -387,7 +387,7 @@ p {
   margin: 0 0 20px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: white;
   font-family: "Dancing Script", cursive;
 }
 
@@ -396,7 +396,7 @@ p {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: #0d6efd;
   margin: 4px 10px;
 }
 
@@ -416,7 +416,7 @@ p {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 2rem;
-  color: #18d26e;
+  color: #0d6efd;
 }
 
 .about-me .content ul {
@@ -1192,4 +1192,12 @@ p {
 
 .credits a:hover {
   color: #fff;
+}
+
+.about-me .content ul {
+  font-size: large !important;
+}
+
+.anhxoay img {
+  width: 400px;
 }
