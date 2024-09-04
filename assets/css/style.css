@@ -1198,6 +1198,19 @@ p {
   font-size: large !important;
 }
 
-.anhxoay img {
-  width: 400px;
+@media (min-width: 1900px) {
+  .anhxoay img {
+    width: 400px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1900px) {
+  .anhxoay img {
+    width: 200px;
+  }
+}
+@media (max-width: 1024px) {
+  .anhxoay img {
+    width: 150px;
+  }
 }
